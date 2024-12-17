@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(white, grey,black);
+}
+/* background image css */
+header {
+  background-image: url("/image/bgimage.png");
+  background-size: cover; /* Cover the entire screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+/* logo css */
+
+.myname {
+  margin-left: 300px;
+  width: 3px;
+}
+
+.myname .surname {
+  color: #f5c729;
+}
+
+/* links css in header main div */
+
+.maindiv {
+  display: flex;
+  gap: 300px;
+  color: white;
+  
+}
+
+.maindiv div {
+  margin-top: 10px;
+}
+
+.maindiv div a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 8px;
+  padding-right: 10px;
+}
+
+.maindiv div a:hover {
+  color: #f5c729;
+}
+
+/* css for banner title and social icon */
+
+.row {
+  display: flex;
+  margin-top: 140px;
+}
+
+.row div h1 {
+  margin-top: 10px;
+  color: white;
+  margin-left: 350px;
+  font-size: 20px;
+}
+
+.row div p {
+  margin-top: 20px;
+  color: white;
+  margin-left: 350px;
+
+  font-size: 60px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+.row .socialicon {
+  margin-left: 880px;
+  font-size: 40px;
+}
+
+.row .socialicon div a i:hover {
+  background-color: white;
+  color: black;
+}
+
+/* main section start from here */
+
+.servicesection {
+  margin-top: 50px;
+  font-size: 40px;
+  display: flex;
+}
+
+.servicesection span {
+  color: #f5c729;
+}
+.servicesection h1 {
+  margin-bottom: 20px;
+}
+
+.servicesection div {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.servicelist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.servicelist {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px #f5c729 solid;
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-align: center;
+}
+
+.servicediv {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* my portfoilio css */
+
+.parentdiv{
+  display: flex;
+}
+
+.myprojects {
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.container {
+  margin-left: 5%;
+  margin-top: 5%;
+  position: relative;
+  width: 50%;
+
+
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+background-image:url("/image/porfoilio images/scada/Waarta Web SCADA.webp");
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+
+
+.projectimage {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+

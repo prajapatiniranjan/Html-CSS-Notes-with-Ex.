@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+
+       border: 2px red solid; 
+       margin-top: 20%;
+       margin-left: 10%;
+       margin-right: 80%;
+}
